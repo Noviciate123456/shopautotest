@@ -1,0 +1,133 @@
+<title><%= content_for?(:title) ? yield(:title) : "Калина" %></title>
+
+<script>
+$(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+
+      autoPlay: 5000,
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+ 
+});
+
+</script>
+
+
+<div class="container">
+  <div class="row">
+    <div class="span-12">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Информация</h3>
+            </div>
+          <div class="panel-body">
+            <h4><i class="icon-chevron-right"></i> Калина</h4>
+            <h4><i class="icon-chevron-right"></i> От 290 000</h4>
+            <h4><i class="icon-chevron-right"></i><a href="#overview"> Комплектация </a></h4>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div id="owl-demo" class="owl-carousel owl-theme">
+              <div class="item"><img src="../assets/Kalina-1.jpg" alt="1"></div>
+              <div class="item"><img src="../assets/Kalina-2.jpg" alt="2"></div>
+              <div class="item"><img src="../assets/Kalina-3.jpg" alt="3"></div>
+              <div class="item"><img src="../assets/Kalina-4.jpg" alt="4"></div>
+            </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Контакты</h3>
+            </div>
+
+            <div class="panel-body">
+              <h4>+7 (967) 483-31-44</h4>
+              <h4>TlTLadaMir@yandex.ru</h4>
+              <h4>Тольятти, Обводное шоссе 3,б</h4>
+            </div>
+
+            <div class="panel-footer">
+              <h5>Звоните (пн-вс) с 8 до 17;00.</h5>
+              <h5>Приезжайте в будни (пн-пт) с 8;00 до 17;00,Выходные с 8;00 до 16;00</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <section id="overview">
+      <div class="page-header"></div>
+      <div class="row">
+
+      <div class="text1">
+        <h1><strong> КОМПЛЕКТАЦИЯ </strong></h1>
+      </div>
+        <div class="col-lg-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h2><strong> Стандарт </strong></h2>
+            </div>
+            <div class="panel-footer">
+              <h4><i class="icon-ok"></i> Универсал 5-дв, двиг.11183 </h4>
+              <h4><i class="icon-ok"></i> 1,6 л, 8 кл, инж. МКПП 2181 </h4>
+              <h4><i class="icon-ok"></i> Евро-4, 82 л.с. перед.привод. Стандарт: ЦЗ с д/у </h4>
+              <h4><i class="icon-ok"></i> СП (2), тепл.поглощ.стекла </h4>
+              <h4><i class="icon-ok"></i> сиденья: иск.кожа+гобелен, ШД R14 </h4>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+               <h2><strong> Норма </strong></h2>
+            </div>
+            <div class="panel-footer">
+              <h4><i class="icon-ok"></i> Универсал 5-дверн, дв.11183 </h4>
+              <h4><i class="icon-ok"></i> 1,6л, 8 кл. 82 л.с., инж. МКПП 2181 </h4>
+              <h4><i class="icon-ok"></i> перед.привод, габар.:4040/1700/1500мм </h4>
+              <h4><i class="icon-ok"></i> объем баг350/650л. Норма: ЦЗ с ду, 2 СП </h4>
+              <h4><i class="icon-ok"></i> тепл.погл.стекла, салон:гобелен, ЭУР, шд R14 </h4>
+              <h4><i class="icon-ok"></i> сигн.с д/у, ,аудиоподготовка, Е-газ </h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+               <h2><strong> Люкс </strong></h2>
+            </div>
+            <div class="panel-footer">
+              <h4><i class="icon-ok"></i> Универсал 5-дв, дв.21126 </h4>
+              <h4><i class="icon-ok"></i> 1,6л, 16 кл, инж. МКПП 2181 с тросовым приводом. ЛЮКС: ЦЗ с ду </h4>
+              <h4><i class="icon-ok"></i> 4СП, ПС2, ЭУР, ПФ, ЛД R14, 2 пб, АБС </h4>
+              <h4><i class="icon-ok"></i> эл.привод и обогрев наруж.зеркал, КЛИМАТ </h4>
+              <h4><i class="icon-ok"></i> Навигация, аудиосистема, обогрев л/ст </h4>
+              <h4><i class="icon-ok"></i> датч. дождя, света, парктроник </h4>
+            </div>
+          </div>   
+        </div>
+
+      </div>
+      </section>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,149 @@
+<title><%= content_for?(:title) ? yield(:title) : "Нива-Шевроле" %></title>
+
+<script>
+$(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+
+      autoPlay: 5000,
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+ 
+});
+
+</script>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="span-12">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Информация</h3>
+            </div>
+          <div class="panel-body">
+            <h4><i class="icon-chevron-right"></i> Niva-Chevrolet</h4>
+            <h4><i class="icon-chevron-right"></i> От 420 000</h4>
+            <h4><i class="icon-chevron-right"></i><a href="#overview"> Комплектация </a></h4>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item"><img src="../assets/Chevrolet-1.jpg" alt="1"></div>
+            <div class="item"><img src="../assets/Chevrolet-2.jpg" alt="2"></div>
+            <div class="item"><img src="../assets/Chevrolet-3.jpg" alt="3"></div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Контакты</h3>
+            </div>
+
+            <div class="panel-body">
+              <h4>+7 (967) 483-31-44</h4>
+              <h4>TlTLadaMir@yandex.ru</h4>
+              <h4>Тольятти, Обводное шоссе 3,б</h4>
+            </div>
+
+            <div class="panel-footer">
+              <h5>Звоните (пн-вс) с 8 до 17;00.</h5>
+              <h5>Приезжайте в будни (пн-пт) с 8;00 до 17;00,Выходные с 8;00 до 16;00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="overview">
+      <div class="page-header"></div>
+      <div class="row">
+
+      <div class="text1">
+        <h1><strong> КОМПЛЕКТАЦИЯ </strong></h1>
+      </div>
+
+        <div class="col-lg-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h2><strong> 21310 </strong></h2>
+            </div>
+            <div class="panel-footer">
+              <h4><i class="icon-ok"></i>    5-и дверная </h4>
+              <h4><i class="icon-ok"></i>    Двигатель 1.7 л (80.9 лс инж) </h4>
+              <h4><i class="icon-ok"></i>    Полный привод </h4>
+              <h4><i class="icon-ok"></i>    ГУР, ТВИД, </h4>
+              <h4><i class="icon-ok"></i>    Ковр-ворс  </h4>
+              <h4><i class="icon-ok"></i>    Шд R16  </h4>
+              <h4><i class="icon-ok"></i>    Сцепление 215 мм </h4>
+              <h4><i class="icon-ok"></i>    Вакумный усилитель тормозов -9 </h4>
+              <h4><i class="icon-ok"></i>    Увеличинные наружные зеркала с регулировкой из салона </h4>
+              <h4><i class="icon-ok"></i>    Комбинированная приборная понель 2115 </h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h2><strong> 21214-40-024 </strong></h2>
+            </div>
+            <div class="panel-footer">
+              <h4><i class="icon-ok"></i>   3-ёх дверная </h4>
+              <h4><i class="icon-ok"></i>   Двигатель 1.7л (80.9лс) </h4>
+              <h4><i class="icon-ok"></i>   Полный привод </h4>
+              <h4><i class="icon-ok"></i>   ГУР, ТВИД+искуственная кожа </h4>
+              <h4><i class="icon-ok"></i>   Ковр-ворс </h4>
+              <h4><i class="icon-ok"></i>   Шд R16 </h4>
+              <h4><i class="icon-ok"></i>   Сцепление 215мм </h4>
+              <h4><i class="icon-ok"></i>   Вакумный усилитель тормозов -9 </h4>
+              <h4><i class="icon-ok"></i>   Увеличенные наружные зеркала с регулировкой из салона </h4>
+              <h4><i class="icon-ok"></i>   Комбинированная приборрная панель 2115 </h4>
+              <h4><i class="icon-ok"></i>   Е-ГАЗ </h4>
+              <h4><i class="icon-ok"></i>   Литые обивки дверей </h4>
+              <h4><i class="icon-ok"></i>   Виброгаситель </h4>
+              <h4><i class="icon-ok"></i>   ШРУС </h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h2><strong> 21214-40-022 </strong></h2>
+            </div>
+            <div class="panel-footer">
+              <h4><i class="icon-ok"></i>   3-ёх дверная </h4>
+              <h4><i class="icon-ok"></i>   Двигатель 1.7л (80.9лс) </h4>
+              <h4><i class="icon-ok"></i>   Полный привод </h4>
+              <h4><i class="icon-ok"></i>   ГУР </h4>
+              <h4><i class="icon-ok"></i>   Шд R16 </h4>
+              <h4><i class="icon-ok"></i>   Сцепление 215мм </h4>
+              <h4><i class="icon-ok"></i>   Вакумный усилитель тормозов -9 </h4>
+              <h4><i class="icon-ok"></i>   Увеличенные наружные зеркала с регулировкой из салона </h4>
+              <h4><i class="icon-ok"></i>   Комбинированная приборная </h4> 
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </section>
+      </div>
+    </div>
+  </div>

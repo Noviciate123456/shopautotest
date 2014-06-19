@@ -1,0 +1,132 @@
+<title><%= content_for?(:title) ? yield(:title) : "Калина-2" %></title>
+
+<script>
+$(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+
+      autoPlay: 5000,
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+ 
+});
+
+</script>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="span-12">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Информация</h3>
+            </div>
+          <div class="panel-body">
+            <h4><i class="icon-chevron-right"></i> Калина-2</h4>
+            <h4><i class="icon-chevron-right"></i> От 300 000</h4>
+            <h4><i class="icon-chevron-right"></i><a href="#overview"> Комплектация </a></h4>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item"><img src="../assets/Kalina2-1.jpg" alt="1"></div>
+            <div class="item"><img src="../assets/Kalina2-2.jpg" alt="2"></div>
+            <div class="item"><img src="../assets/Kalina2-3.jpg" alt="3"></div>
+            <div class="item"><img src="../assets/Kalina2-4.jpg" alt="4"></div> 
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Контакты</h3>
+            </div>
+
+            <div class="panel-body">
+              <h4>+7 (967) 483-31-44</h4>
+              <h4>TlTLadaMir@yandex.ru</h4>
+              <h4>Тольятти, Обводное шоссе 3,б</h4>
+            </div>
+
+            <div class="panel-footer">
+              <h5>Звоните (пн-вс) с 8 до 17;00.</h5>
+              <h5>Приезжайте в будни (пн-пт) с 8;00 до 17;00,Выходные с 8;00 до 16;00</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <section id="overview">
+      <div class="page-header"></div>
+      <div class="row">
+
+      <div class="text1">
+        <h1><strong> КОМПЛЕКТАЦИЯ </strong></h1>
+      </div>
+
+        <div class="col-lg-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h2><strong> Стандарт </strong></h2>
+            </div>
+            <div class="panel-footer">
+              <h4><i class="icon-ok"></i> Универсал 5-дв, Евро-4 </h4>
+              <h4><i class="icon-ok"></i> двиг. 11186, 8кл, 1,6л, 87 л.с. </h4>
+              <h4><i class="icon-ok"></i> МКПП 2181, ЭУР, 2СП, 1ПБ </h4>
+              <h4><i class="icon-ok"></i> ШД R14, аудиподготовка </h4>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+               <h2><strong> Норма </strong></h2>
+            </div>
+            <div class="panel-footer">
+              <h4><i class="icon-ok"></i> Универсал 5-дв, Евро-4 </h4>
+              <h4><i class="icon-ok"></i> двиг. 11186, 8кл, 1,6л, 87 л.с. </h4>
+              <h4><i class="icon-ok"></i> МКПП 2181, ЭУР, ЦЗ с ДУ, 2СП, 1ПБ </h4>
+              <h4><i class="icon-ok"></i> ABS+BAS, ШД R14, аудиподготовка </h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+               <h2><strong> Люкс </strong></h2>
+            </div>
+            <div class="panel-footer">
+               <h4><i class="icon-ok"></i> Универсал 5-дв, дв.21126 </h4>
+               <h4><i class="icon-ok"></i> 1,6л, 16кл, 98 лс. АКПП, перед.прив. ЛЮКС: ЦЗ с ДУ </h4>
+               <h4><i class="icon-ok"></i> 4СП, ПС. ЭУР, ПФ, ЛД R15, 2ПБ, ABS+BAS </h4>
+               <h4><i class="icon-ok"></i> эл.пр. и обогр.наруж.зеркал, климат, мультимедийная система </h4>
+               <h4><i class="icon-ok"></i> обгр.л/ст, парктроник, датчики дождя и света фар. </h4>
+            </div>
+          </div>   
+        </div>
+
+      </div>
+      </section>
+      </div>
+    </div>
+  </div>
